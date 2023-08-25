@@ -8,8 +8,8 @@ const port = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
     res.send(`Hello from port ${port}.`);
-})
+});
 
 app.listen(port, () => {
     console.log("Connected");
-})
+});
